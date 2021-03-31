@@ -33,7 +33,7 @@ section {
 .m-container div{
     padding: 0;
 }
-.m-container input, .bdr input{
+.m-container button, .bdr button{
     border: none;
     width: 100%;
     height: 52px;
