@@ -20,19 +20,148 @@
 </head>
 
 <body>
-    <section>
+    <section class="mt-4">
         <div class="container">
-            <div class="d-flex flex-row flex-wrap col-lg-4 m-auto text-center bg-info h-100">
-                <div class="clc-container">
-                    <div class="clc-display">
-                        <form action="">
-                            <input type="text" value="1">
-                        </form>                    </div>
+            <div class="calc-container d-flex flex-row flex-wrap col-lg-4 m-auto text-center bg-light h-100 p-1">
+                <div class="col-12 d-flex flex-row flex-wrap justify-content-between p-0 pt-3">
+                    <div class="col-6">
+                        <p class="text-left">calculator</p>
+                    </div>
+                    <div class="col-6 d-flex flex-row flex-wrap justify-content-end">
+                        <i class="fa fa-minus pl-3" aria-hidden="true"></i>
+                        <i class="fa fa-square-o pl-3" aria-hidden="true"></i>
+                        <i class="fa fa-times pl-3" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="col-12 d-flex flex-row flex-wrap justify-content-between p-0">
+                    <div class="col-6 d-flex flex-row flex-wrap justify-content-between">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                        <h6 class="font-weight-bold">standard</h6>
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-6 mx-auto text-right">
+                        <i class="fa fa-history" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="calc col-lg-12 p-0 ">
+                    <form class="">
+                        <input class="calc-display text-right bg-light border-0 w-100">
+                    </form>
+                </div>
+                <div class="m-container col-12 d-flex flex-row flex-wrap bg-light p-0">
+                    <div class="col-2">
+                        <input type="button" class="text-secondar bg-light" value="MC">
+                    </div>
+                    <div class="col-2">
+                        <input type="button" class="text-secondar bg-light" value="MR">
+                    </div>
+                    <div class="col-2">
+                        <input class="text" value="M+">
+                    </div>
+                    <div class="col-2">
+                        <input class="text" value="M-">
+                    </div>
+                    <div class="col-2">
+                        <input class="text" value="MS">
+                    </div>
+                    <div class="col-2">
+                        <input type="button" class="text-secondar" value="M">
+                    </div>
+                </div>
+                <div class="icon-box col-12 d-flex flex-row flex-wrap bg-light justify-content-between p-0">
+                    <div class="col-3 bdr">
+                        <input type="button" class="" value="%">
+                    </div>
+                    <div class="col-3 bdr">
+                        <input type="button" class="" value="CE">
+                    </div>
+                    <div class="col-3 bdr">
+                        <input type="button" class="" value="C">
+                    </div>
+                    <div class="col-3 bdr">
+                        <input type="button" class="" value="×">
+                    </div>
+                </div>
+                <div class="icon-box col-12 d-flex flex-row flex-wrap bg-light justify-content-between p-0">
+                    <div class="col-3 bdr">
+                        <input type="button" class="" value="1/×">
+                    </div>
+                    <div class="col-3 bdr">
+                        <input type="button" value="x^2">
+                    </div>
+                    <div class="col-3 bdr">
+                        <input type="button" value="2√x">
+                    </div>
+                    <div class="col-3 bdr">
+                        <input type="button" value="÷">
+                    </div>
+                </div>
+                <div class="icon-box col-12 d-flex flex-row flex-wrap bg-light justify-content-between p-0">
+                    <div class="col-3 bdr">
+                        <input class="bg-white" type="button" value="7">
+                    </div>
+                    <div class="col-3 bdr">
+                        <input class="bg-white" type="button" value="8">
+                    </div>
+                    <div class="col-3 bdr">
+                        <input class="bg-white" type="button" value="9">
+                    </div>
+                    <div class="col-3 bdr">
+                        <input type="button" value="×">
+                    </div>
+                    <div class="icon-box col-12 d-flex flex-row flex-wrap bg-light justify-content-between p-0">
+                        <div class="col-3 bdr">
+                            <input class="bg-white" type="button" value="4">
+                        </div>
+                        <div class="col-3 bdr">
+                            <input class="bg-white" type="button" value="5">
+                        </div>
+                        <div class="col-3 bdr">
+                            <input class="bg-white" type="button" value="6">
+                        </div>
+                        <div class="col-3 bdr">
+                            <input type="button" value="-">
+                        </div>
+                    </div>
+                    <div class="icon-box col-12 d-flex flex-row flex-wrap bg-light justify-content-between p-0">
+                        <div class="col-3 bdr">
+                            <input class="bg-white" type="button" value="1">
+                        </div>
+                        <div class="col-3 bdr">
+                            <input class="bg-white" type="button" value="2">
+                        </div>
+                        <div class="col-3 bdr">
+                            <input class="bg-white" type="button" value="3">
+                        </div>
+                        <div class="col-3 bdr">
+                            <input type="button" value="+">
+                        </div>
+                    </div>
+                    <div class="icon-box col-12 d-flex flex-row flex-wrap bg-light justify-content-between p-0">
+                        <div class="col-3 bdr">
+                            <input class="bg-white" type="button" value="+/_">
+                        </div>
+                        <div class="col-3 bdr">
+                            <input class="bg-white" type="button" value="0">
+                        </div>
+                        <div class="col-3 bdr">
+                            <input class="bg-white" type="button" value=".">
+                        </div>
+                        <div class="col-3 bdr">
+                            <input style="background: #78addf;" class="" type="button" value="=">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
+    <script>
+        $(document).ready(function () {
+            $('input').onClick(function () {
+               $(this).insrt();
+            });
+        });
+    </script>
 </body>
 
 </html>

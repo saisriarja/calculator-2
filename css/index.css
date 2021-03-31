@@ -10,3 +10,33 @@ body {
 section {
     font-family: 'Roboto', sans-serif;
 }
+
+.calc-container {
+    border: 1px solid black;
+    box-shadow: 0 3px 13px 0 rgb(68 88 144 / 25%);
+}
+.calc input{
+    height: 72px;
+}
+.text-secondar{
+    color: #d3d5d6;
+    font-size: 14px;
+}
+.text{
+    font-size: 14px;
+}
+.bdr{
+    border-bottom:2px solid #e7edf3;
+    border-right: 2px solid #e7edf3;
+    padding: 0;
+}
+.m-container div{
+    padding: 0;
+}
+.m-container input, .bdr input{
+    border: none;
+    width: 100%;
+    height: 52px;
+    padding: 0;
+    background: #f8f9fa;
+}
